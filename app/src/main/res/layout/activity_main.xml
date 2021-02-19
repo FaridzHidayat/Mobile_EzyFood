@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="60dp"
+        android:text="Please Choose Your Menu Here"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        android:textColor="#090808"
+        />
+
+    <ImageView
+        android:id="@+id/btnsnacks"
+        android:layout_width="155dp"
+        android:layout_height="146dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/btnsnack"
+        android:onClick="snacks"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/shape_background"
+        />
+
+    <TextView
+        android:id="@+id/txtsnacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnsnacks"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Snacks"
+        android:textColor="#090808"/>
+
+    <ImageView
+        android:id="@+id/btntopup"
+        android:layout_width="154dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/txtsnacks"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/btntopup"
+        android:onClick="topup"
+        android:background="@drawable/shape_background"
+        />
+
+    <TextView
+        android:id="@+id/txttopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btntopup"
+        android:text="Top Up"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="70dp"
+        android:textColor="#090808"/>
+
+    <ImageView
+        android:id="@+id/btndrinks"
+        android:layout_width="155dp"
+        android:layout_height="146dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/btndrink"
+        android:onClick="drink"
+        android:background="@drawable/shape_background"
+        />
+
+
+    <TextView
+        android:id="@+id/txtdrinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btndrinks"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="9dp"
+        android:text="Drinks"
+        android:textColor="#090808"
+        />
+
+    <ImageView
+        android:id="@+id/btnFood"
+        android:layout_width="156dp"
+        android:layout_height="146dp"
+        android:layout_below="@id/txtdrinks"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/btnfood"
+        android:onClick="food"
+        android:background="@drawable/shape_background"
+        />
+
+    <TextView
+        android:id="@+id/txtfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFood"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="9dp"
+        android:text="Food"
+        android:textColor="#090808"/>
+
+
+</RelativeLayout>
